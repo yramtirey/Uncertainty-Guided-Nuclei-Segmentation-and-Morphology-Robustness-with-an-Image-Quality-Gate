@@ -1,17 +1,37 @@
-# Dataset directory
+# Local dataset directory
 
-This directory contains the project image-mask data used in the final experiments.
+This directory is the expected local location for the microscopy datasets used in the project experiments.
 
-## Contents
+## Important scope note
 
-- b006/: BBBC006 image and mask files
-- b039/: BBBC039 image and mask files
-- combined/: combined dataset image and mask files
+The full BBBC006 and BBBC039 datasets are not committed to this GitHub repository.
 
-## Index metadata
+The project requires the original image and mask data from the Broad Bioimage Benchmark Collection, and those files must be obtained separately before running the notebooks locally.
 
-The CSV index files in each dataset folder record image-mask pairing information and dataset split metadata. These files were retained as part of the final project snapshot.
+## Required datasets
 
-## Important note
+The project expects the following data to be available locally:
 
-Some older index CSVs still contain the original Google Drive absolute paths from the notebook workflow. These metadata entries are preserved for historical traceability, but the repository is intended to use local relative paths in the final portfolio-ready structure.
+- BBBC006
+- BBBC039
+- a combined dataset assembled from the paired image/mask files used in the final experiments
+
+## Local placement
+
+The expected local structure is:
+
+- data/b006/
+- data/b039/
+- data/combined/
+
+Each folder contains the image and mask files, along with any dataset index or metadata CSV files used by the project notebooks.
+
+## Historical metadata note
+
+Some historical index files in this project originally contained Google Drive paths from the earlier notebook workflow. Those entries are retained only as provenance from the project’s original execution environment and are not part of the intended portable repository workflow.
+
+## Data exclusion
+
+The repository is configured to exclude dataset contents through the project .gitignore rules so that large microscopy image files are not committed to GitHub.
+
+This repository keeps the analysis pipeline, notebooks, saved outputs, and documentation, but not the raw benchmark image sets themselves.
