@@ -1,0 +1,18 @@
+# Full datasets
+data/raw/
+data/processed/
+data/b006/
+data/b039/
+data/combined/
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / notebook clutter
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,3 @@
+dataset,seed,strategy,selection_method,training_samples,test_loss,test_dice,test_iou
+combined,42,passive,random_with_shared_warmup,120,0.7589636904162329,0.5726183538602011,0.50175376014935
+combined,42,active,mc_dropout_uncertainty,120,0.7531233260760436,0.6233240144478308,0.546750662294594

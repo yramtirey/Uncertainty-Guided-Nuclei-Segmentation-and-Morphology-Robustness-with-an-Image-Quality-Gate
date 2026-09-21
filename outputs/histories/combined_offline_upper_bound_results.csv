@@ -1,0 +1,2 @@
+dataset,strategy,training_samples,test_loss,test_dice,test_iou
+combined,offline_full_training_set,676,0.5399808521206314,0.7580198766411962,0.6585240444621524

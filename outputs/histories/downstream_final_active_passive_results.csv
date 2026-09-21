@@ -1,0 +1,7 @@
+dataset,strategy,training_samples,test_dice,test_iou
+BBBC006,passive,120,0.947,0.907
+BBBC006,active,120,0.948,0.909
+BBBC039,passive,120,0.956,0.916
+BBBC039,active,120,0.957,0.918
+combined,passive,120,0.573,0.502
+combined,active,120,0.623,0.547
